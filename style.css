@@ -1,0 +1,38 @@
+body {
+  background-color: #eee;
+}
+
+.splitter>.box {
+  width: 300px;
+  height: 150;
+}
+
+.box {
+  flex: 1 1 50%;
+}
+
+.vsplit {
+  display: flex;
+  flex-direction: row;
+}
+
+.hsplit {
+  display: flex;
+  flex-direction: column;
+}
+
+.empty {
+  border: 2px dotted #bbb;
+}
+
+.browser {
+  border: 2px solid #bbb;
+}
+
+.box .content {
+  margin: 4px;
+}
+
+.box p {
+  margin: 0;
+}
